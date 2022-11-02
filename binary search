@@ -1,0 +1,29 @@
+www.patika.dev
+Veri Yapıları ve Algoritmalar>Binary Search Tree Projesi
+Binary Search Tree Projesi
+Proje 3
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+Root: 7
+
+                                                             7
+                                                          /     \ 
+                                                        5         8
+                                                      /  \          \
+                                                     1    6          9  
+                                                    /  \ 
+                                                   0     3
+                                                         / \
+                                                        2   4 
+
+1.	ADIM: Root’u 7 olarak belirledim.
+2.	ADIM: 5<7 olduğu için 7’nin sol tarafına 5’i ekledim.
+3.	ADIM:1<7 olduğu için sol taraftan ilerledim. Aynı zamanda 1<5 olduğu için 5’in sol tarafına 1’i ekledim.
+4.	ADIM: 8>7 olduğu için sağ tarafa 8’i ekledim.
+5.	ADIM: 3<7 olduğu için sol taraftan ilerledim. Yine 3<5 olduğu için sol taraftan ilerledim. 3>1 olduğu için 1’in sağ tarafına 3’ü ekledim.
+6.	ADIM:6<7 olduğu için sol taraftan ilerledim. 6>5 olduğu için 5’in sağ tarafına 6’yı ekledim.
+7.	ADIM:0<7 olduğu için sol taraftan ilerledim. Yine 0<5 olduğu için sol taraftan devam ettim. 0<1 olduğu için 1’in soluna 0’ı ekledim.
+8.	ADIM:9>7 olduğu için sağ taraftan ilerledim. Yine 9>8 olduğu için 8’in sağ tarafına 9’u ekledim.
+9.	ADIM:4<7 olduğu için sol taraftan ilerledim. 4<5 olduğu için yine sol taraftan devam ettim. 4>1 olduğu için sağ taraftan ilerledim. 4>3 olduğu için 3’ün sağ tarafına 4’ü ekledim.
+10.	ADIM: 2<7 olduğu için sol taraftan ilerledim. Yine 2<5 olduğu için sol taraftan ilerlemeye devam ettim. 2>1 olduğu için sağ taraftan ilerledim. 2<3 olduğu için 3’ün sol tarafına 2’yi ekledim.
+
